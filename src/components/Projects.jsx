@@ -1,7 +1,6 @@
 import preview from '../assets/preview.png';
 import portfolio from '../assets/portfolio.png';
 import hatsupply from '../assets/hatsupply.png';
-import TortillaBackground from "../components/TortillaBackground";
 
 export default function Projects() {
   const projects = [
@@ -33,7 +32,7 @@ export default function Projects() {
       id="projects"
       className=" text-white py-20 px-6 md:px-12 lg:px-24"
     >
-        
+
       <h2 className="text-4xl font-bold text-red-600 mb-12 text-center">
         Projects
       </h2>

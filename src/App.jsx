@@ -1,11 +1,9 @@
-import React from "react";
 import Header from "./components/Header";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 import TTUMascotBackground from "./components/TTUMascotBackground";
 import TortillaBackground from "./components/TortillaBackground";
-import SkillsLaptop from "./components/SkillsLaptop";
 
 
 function App() {
@@ -26,13 +24,8 @@ function App() {
 
         <section className="bg-black/20">
           <Resume />
-        
+
         </section>
-        <div className="w-full flex justify-center mt-12">
-  <div className="w-full md:h-[550px] lg:h-[650px]">
-    <SkillsLaptop />
-  </div>
-</div>
       </div>
     </div>
   );

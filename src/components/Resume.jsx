@@ -35,7 +35,7 @@ export default function Resume() {
   ];
 
   return (
-    <section className="relative min-h-screen py-20 px-6 md:px-12 lg:px-24 text-white">
+    <section id="resume" className="relative min-h-screen py-20 px-6 md:px-12 lg:px-24 text-white">
       <div className="max-w-5xl mx-auto px-6 md:px-12 lg:px-24">
         <h2 className="text-4xl font-bold text-red-600 mb-12 text-center">Resume</h2>
 

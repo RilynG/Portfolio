@@ -14,7 +14,7 @@ const TortillaBackground = () => {
         duration: 5 + Math.random() * 5, // fall duration in seconds
       };
       setTortillas((prev) => [...prev, newTortilla]);
-      
+
       // Remove after animation ends to prevent memory buildup
       setTimeout(() => {
         setTortillas((prev) => prev.filter((t) => t.id !== newTortilla.id));
