@@ -34,7 +34,7 @@ export default function Resume() {
   const certifications = ["Responsive Web Design - freeCodeCamp"];
 
   return (
-    <section className="relative min-h-screen py-20 px-6 md:px-12 lg:px-24 text-white">
+    <section className="relative min-h-screen py-20 px-6 md:px-12 lg:px-24 text-white" id='resume'>
       <div className="max-w-5xl mx-auto">
         <h2 className="text-4xl font-bold text-red-600 mb-12 text-center">Resume</h2>
 
@@ -105,7 +105,7 @@ export default function Resume() {
           viewport={{ once: true }}
         >
           <a
-            href="/Rilyn-Griffin-Resume.pdf"
+            href="/rilyn_griffin_resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-red-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-black transition-colors"

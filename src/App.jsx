@@ -4,28 +4,21 @@ import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 import TTUMascotBackground from "./components/TTUMascotBackground";
 import TortillaBackground from "./components/TortillaBackground";
+import Contact from "./components/Contact";
 
 
 function App() {
   return (
     <div className="relative min-h-screen">
+      <Header />
       <TTUMascotBackground />
       <TortillaBackground />
       <div className="relative z-10">
-        <Header />
         {/* Sections */}
-        <section className="bg-black/30">
-          <About />
-        </section>
-
-        <section className="bg-black/20">
-          <Projects />
-        </section>
-
-        <section className="bg-black/20">
-          <Resume />
-
-        </section>
+        <About />
+        <Projects />
+        <Resume />
+        <Contact />
       </div>
     </div>
   );

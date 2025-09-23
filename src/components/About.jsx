@@ -2,7 +2,7 @@ import { Typewriter } from "react-simple-typewriter";
 import JONES from '../assets/JONES.jpg';
 import ME from '../assets/ME.jpeg';
 import { FaReact, FaNodeJs, FaPython, FaHtml5, FaCss3Alt, FaJs, FaServer, FaJava, FaGitAlt } from "react-icons/fa";
-import "../index.css"; // Make sure this path matches your file structure
+import "../index.css"; 
 import { SiC, SiCplusplus, SiMongodb, SiMysql, SiTailwindcss, SiVite } from "react-icons/si";
 
 export default function About() {
@@ -29,7 +29,7 @@ export default function About() {
     { name: "Git", icon: <FaGitAlt /> },
   ];
 
-  const radius = 120; // orbit radius in px
+  const radius = 120;
 
   return (
     <section

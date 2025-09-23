@@ -12,7 +12,7 @@ const projects = [
     image: preview,
     tech: ["React", "Express", "MongoDB"],
     demo: "#",
-    github: "#",
+    github: "https://github.com/RilynG/income-control",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const projects = [
     image: portfolio,
     tech: ["React", "TailwindCSS"],
     demo: "#",
-    github: "#",
+    github: "https://github.com/RilynG/Portfolio",
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const projects = [
     image: hatsupply,
     tech: ["React", "Node.js"],
     demo: "#",
-    github: "#",
+    github: "https://github.com/RilynG/HatSupply-EcommSite",
   },
 ];
 
@@ -44,6 +44,7 @@ export default function Projects() {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
       viewport={{ once: true, amount: 0.2 }}
+      id='projects'
     >
       <h2 className="text-4xl font-bold mb-12 text-center text-red-600">
         Projects
@@ -84,6 +85,8 @@ export default function Projects() {
               </a>
               <a
                 href={featured.github}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="px-4 py-2 bg-gray-800 text-white rounded-lg shadow-lg hover:scale-105 transform transition-transform"
               >
                 GitHub
