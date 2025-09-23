@@ -28,12 +28,12 @@ Welcome to my personal portfolio! This site showcases my **projects, technical s
 ## 🖼️ Screenshots
 
 ### Home / About Me
-![Home Screenshot](/ssabout.png)
+![Home Screenshot](screenshots/ssabout.png)
 
 ### Projects Page
-![Projects Screenshot](/ssprojects.png)
+![Projects Screenshot](screenshots/ssprojects.png)
 
 ### Contact Page
-![Contact Screenshot](/sscontact.png)
+![Contact Screenshot](screenshots/sscontact.png)
 
 ---
