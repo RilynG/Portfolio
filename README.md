@@ -1,12 +1,39 @@
-# React + Vite
+# 🌟 Rilyn Griffin Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio! This site showcases my **projects, technical skills, and contact information**. Built with **React**, **TailwindCSS**, **Vite**, and **Framer Motion**, it’s fully responsive and packed with interactive elements.  
 
-Currently, two official plugins are available:
+[🌐 Live Demo](https://rilyngriffin.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🎨 Features & Highlights
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Interactive Orbital Tech Icons**: Hover over my avatar to see the technologies I work with.  
+- **Smooth Project Page Animations**: Featured project highlights with hover scaling and dynamic thumbnails.  
+- **Responsive Design**: Works seamlessly on mobile, tablet, and desktop.  
+- **Contact Section**: Includes a business-card style info panel and a functional email contact form.  
+- **Tech Stack Badges**: Displays all technologies used across projects with hover tooltips.  
+
+---
+
+## 💻 Tech Stack
+
+- **Frontend:** React, Vite, TailwindCSS  
+- **Animations:** Framer Motion, react-simple-typewriter  
+- **Icons:** React Icons (Fa, Si)    
+- **Version Control:** Git & GitHub  
+
+---
+
+## 🖼️ Screenshots
+
+### Home / About Me
+![Home Screenshot](/ssabout.png)
+
+### Projects Page
+![Projects Screenshot](/ssprojects.png)
+
+### Contact Page
+![Contact Screenshot](/sscontact.png)
+
+---

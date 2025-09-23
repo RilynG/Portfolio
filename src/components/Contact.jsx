@@ -16,7 +16,9 @@ export default function Contact() {
     e.preventDefault();
     setLoading(true);
     try {
-      const res = await fetch("https://formspree.io/f/mzzjplyd", { 
+      const FORMSPREE_URL = import.meta.env.VITE_FORMSPREE_URL;
+
+      const res = await fetch(FORMSPREE_URL, { 
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
